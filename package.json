@@ -1,0 +1,17 @@
+{
+  "name": "photo-rekognition-api",
+  "version": "1.0.0",
+  "description": "APIs to upload images to AWS S3 bucket and use AWS rekognition api for facial recognition",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "migrate": "node src/db/migrations"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pg": "^8.5.1",
+    "aws-sdk": "^2.814.0",
+    "dotenv": "^8.2.0"
+  }
+}
